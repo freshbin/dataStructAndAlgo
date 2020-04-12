@@ -1,4 +1,4 @@
-package com.freshbin.dataStructAndAlgo.chapter06.Array.LRU;
+package com.freshbin.dataStructAndAlgo.chapter06.mycode.Array.LRU;
 
 /**
  * @author freshbin

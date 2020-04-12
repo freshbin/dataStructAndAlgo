@@ -1,4 +1,4 @@
-package com.freshbin.dataStructAndAlgo.chapter06.Array.palindromicString;
+package com.freshbin.dataStructAndAlgo.chapter06.mycode.Array.palindromicString;
 
 /**
  * 使用数组实现回文字符串校验

@@ -1,6 +1,6 @@
-package com.freshbin.dataStructAndAlgo.chapter06.Link.palindromicString;
+package com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.palindromicString;
 
-import com.freshbin.dataStructAndAlgo.chapter06.Link.LRU.MyNode;
+import com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.LRU.MyNode;
 
 /**
  * 使用数组实现回文字符串校验

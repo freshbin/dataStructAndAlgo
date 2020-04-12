@@ -1,6 +1,6 @@
-package com.freshbin.dataStructAndAlgo.chapter06.Link.palindromicString;
+package com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.palindromicString;
 
-import com.freshbin.dataStructAndAlgo.chapter06.Link.LRU.MyNode;
+import com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.LRU.MyNode;
 
 /**
  * 使用链表实现LRU缓存淘汰策略
@@ -34,5 +34,4 @@ public class MyLink {
     public void setFirstNode(MyNode firstNode) {
         this.firstNode = firstNode;
     }
-
 }
