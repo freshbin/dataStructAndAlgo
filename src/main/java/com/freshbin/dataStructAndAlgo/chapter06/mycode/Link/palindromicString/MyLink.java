@@ -27,6 +27,32 @@ public class MyLink {
         return this.firstNode;
     }
 
+    /**
+     * 每次都从尾部写入
+     * @param value
+     * @return
+     */
+    public MyNode addTailLink(String value) {
+        MyNode myNode = new MyNode(value);
+        if(this.firstNode == null) {
+            this.firstNode = myNode;
+            return this.firstNode;
+        }
+
+        MyNode nextNode = this.firstNode;
+        while(nextNode != null) {
+            if(nextNode.next == null) {
+                break;
+            }
+            nextNode = nextNode.next;
+        }
+
+        nextNode.next = myNode.next;
+        nextNode.next = myNode;
+
+        return this.firstNode;
+    }
+
     public MyNode getFirstNode() {
         return this.firstNode;
     }
