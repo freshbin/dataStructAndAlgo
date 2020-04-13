@@ -1,16 +1,20 @@
-package com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.reversal;
+package com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.exam;
 
 import com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.LRU.MyNode;
 import com.freshbin.dataStructAndAlgo.chapter06.mycode.Link.palindromicString.MyLink;
 
 /**
- * 单链表方式实现翻转单链表
- * 思路：需要添加一个前节点用于辅助
- * 将当前节点的下一节点指向前节点，将前节点和当前节点都往后移动。
  * @author freshbin
  * @date 2020/4/12 15:34
  */
-public class MyLinkReversal {
+public class MyLinkExam {
+    /**
+     * 单链表方式实现翻转单链表
+     * 思路：需要添加一个前节点用于辅助
+     * 将当前节点的下一节点指向前节点，将前节点和当前节点都往后移动。
+     * @param node
+     * @return
+     */
     public static MyNode reversalLink(MyNode node) {
         if(node == null || node.next == null) {
             return node;
@@ -31,6 +35,7 @@ public class MyLinkReversal {
     }
 
     public static void main(String[] arg) {
+        // 链表反转
         String s0 = "a";
         String s1 = "b";
         String s2 = "c";
