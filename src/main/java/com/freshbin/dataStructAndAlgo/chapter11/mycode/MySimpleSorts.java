@@ -1,11 +1,11 @@
 package com.freshbin.dataStructAndAlgo.chapter11.mycode;
 
 /**
- * 排序算法
+ * 简单排序算法
  * @author freshbin
  * @date 2020/4/15 14:28
  */
-public class MySorts {
+public class MySimpleSorts {
     /**
      * 冒泡排序
      * 遍历数组，相邻两个数两两比较
