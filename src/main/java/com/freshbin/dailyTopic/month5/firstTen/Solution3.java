@@ -1,4 +1,4 @@
-package com.freshbin.dailyTopic.month5.two;
+package com.freshbin.dailyTopic.month5.firstTen;
 
 import java.util.HashMap;
 
@@ -25,7 +25,7 @@ import java.util.HashMap;
  * @author freshbin
  * @date 2020/5/2 8:17
  */
-public class Solution {
+public class Solution3 {
     /**
      * 思路：遍历字符串，循环判断每个字符是否存在map中，如果存在就继续后面的遍历
      * 当所有字符循环完毕直接退出，这时候是最长的
@@ -83,7 +83,7 @@ public class Solution {
 
     public static void main(String[] arg) {
         String s = "pwwkew";
-        Solution solution = new Solution();
+        Solution3 solution = new Solution3();
         System.out.println(solution.lengthOfLongestSubstring(s));
         System.out.println(solution.slideWindows(s));
     }

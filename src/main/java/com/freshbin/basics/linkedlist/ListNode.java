@@ -1,8 +1,8 @@
-package com.freshbin.dailyTopic.month5.one;
+package com.freshbin.basics.linkedlist;
 
 /**
  * @author freshbin
- * @date 2020/5/1 10:03
+ * @date 2020/5/2 14:54
  */
 public class ListNode {
     int val;
