@@ -1,6 +1,7 @@
 package com.freshbin.dailyTopic.month5.firstTen;
 
 
+import java.math.BigDecimal;
 import java.util.Stack;
 
 /**
@@ -95,5 +96,12 @@ public class Solution98 {
             root = root.right;
         }
         return true;
+    }
+
+    public static void main(String[] arg) throws Exception {
+        BigDecimal bigDecimal1 = new BigDecimal(Double.toString(4.0));
+        BigDecimal bigDecimal2 = new BigDecimal(Double.toString(3.6));
+        System.out.println(bigDecimal1.divide(bigDecimal2,2,BigDecimal.ROUND_HALF_UP).doubleValue());
+        System.out.println(bigDecimal1.subtract(bigDecimal2).setScale(2));
     }
 }
