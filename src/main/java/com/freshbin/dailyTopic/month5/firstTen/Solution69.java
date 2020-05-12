@@ -1,5 +1,7 @@
 package com.freshbin.dailyTopic.month5.firstTen;
 
+import java.util.ArrayList;
+
 /**
  * 69. x 的平方根
  * 实现 int sqrt(int x) 函数。
@@ -23,6 +25,8 @@ package com.freshbin.dailyTopic.month5.firstTen;
  * @date 2020/5/9 9:03
  */
 public class Solution69 {
+    public int x;
+    public String y;
     /**
      *
      * @param x
@@ -67,5 +71,14 @@ public class Solution69 {
         String s5 = s2.intern();
         System.out.println(s3 == s5);           // true
 
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(1);
+    }
+
+    public int hashCode() {
+        int result = 17;
+        result = 31*result + x;
+        result = 31*result + y.hashCode();
+        return result;
     }
 }
